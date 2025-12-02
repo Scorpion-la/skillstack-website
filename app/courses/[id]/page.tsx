@@ -106,7 +106,7 @@ export default function CourseDetailPage({ params }: { params: { id: string } })
           progress,
           modules: modulesData?.map(m => ({
             ...m,
-            lessons: m.lessons?.map(l => ({
+            lessons: m.lessons?.map((l: any) => ({
               ...l,
               completed: false // This would be fetched from user progress in a real app
             })) || []
