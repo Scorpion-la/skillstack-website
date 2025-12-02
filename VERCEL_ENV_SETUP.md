@@ -70,6 +70,10 @@ vercel env pull
 
 2. The build should now succeed and your app will be able to connect to Supabase
 
+## Important Note
+
+⚠️ **The application will fail to build if these environment variables are missing.** This is intentional - it ensures configuration errors are caught early during deployment rather than causing cryptic runtime failures. Make sure to add both variables before deploying.
+
 ## Troubleshooting
 
 - **Build still fails**: Make sure you clicked "Redeploy" after adding variables
