@@ -1,21 +1,15 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import Navigation from "@/components/Navigation";
 import OnboardingTourWrapper from "@/components/OnboardingTourWrapper";
+import { defaultMetadata, viewport } from "./lib/metadata";
+
+export { viewport };
+export const metadata = defaultMetadata;
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "SkillStack - Learn New Skills",
-  description: "Master new skills with SkillStack's comprehensive learning resources and booklets.",
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-    { media: '(prefers-color-scheme: dark)', color: '#0f172a' },
-  ],
-};
 
 export default function RootLayout({
   children,
