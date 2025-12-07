@@ -60,7 +60,7 @@ export default function AboutPage() {
     { 
       name: 'Ankit', 
       role: 'DevOps Engineer',
-      image: '/team/WhatsApp Image 2025-12-03 at 15.55.43_d17ffc7e.jpg',
+      image: '/team/WhatsApp Image 2025-12-03 at 18.21.33_e83824f1.jpg',
       bio: 'Ankit specializes in DevOps practices, ensuring our infrastructure is scalable, reliable, and efficient. His expertise in CI/CD pipelines and cloud technologies keeps our platform running smoothly.'
     },
     { 
