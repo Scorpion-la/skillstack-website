@@ -122,7 +122,7 @@ export default function AboutPage() {
                   highlight: true
                 },
                 {
-                  name: 'Aarahu Kumar',
+                  name: 'Aarshu Kumar',
                   role: 'CTO & Tech Lead',
                   bio: 'Aarahu leads our technical team with exceptional coding skills and innovative solutions. His expertise in full-stack development has been instrumental in building our platform.',
                   image: '/team/WhatsApp Image 2025-12-02 at 18.58.08_57bf0a95.jpg',
@@ -135,7 +135,12 @@ export default function AboutPage() {
                   image: '/team/WhatsApp Image 2025-12-01 at 20.55.27_a4068552.jpg',
                   highlight: true
                 },
-                { name: 'Aryan', role: 'Frontend Developer' },
+                { 
+                  name: 'Aryan', 
+                  role: 'Frontend Developer',
+                  image: '/team/WhatsApp Image 2025-12-03 at 15.55.43_d17ffc7e.jpg',
+                  bio: 'Aryan specializes in creating responsive and interactive user interfaces. With a keen eye for design and a passion for modern web technologies, he ensures our platform delivers an exceptional user experience across all devices.'
+                },
                 { 
                   name: 'Shivraj', 
                   role: 'Backend Developer',
@@ -148,14 +153,23 @@ export default function AboutPage() {
                   image: '/team/WhatsApp Image 2025-12-01 at 20.55.05_703bdc31.jpg',
                   bio: 'Rudransh brings designs to life with a keen eye for aesthetics and user experience. His creative vision ensures our platform is both beautiful and intuitive for all users.'
                 },
-                { name: 'Pawan', role: 'Mobile Developer' },
+                { 
+                  name: 'Pawan', 
+                  role: 'Mobile Developer',
+                  bio: 'Pawan is our mobile development expert, crafting seamless cross-platform experiences. His expertise in React Native and native mobile development helps us deliver our educational content to users on the go with optimal performance and usability.'
+                },
                 { 
                   name: 'Abhishek', 
                   role: 'Content Strategist',
                   image: '/team/WhatsApp Image 2025-12-01 at 18.49.57_16c7c129.jpg',
                   bio: 'Abhishek crafts compelling content strategies that engage and educate our community. His expertise in content creation helps us deliver valuable learning experiences.'
                 },
-                { name: 'Ankit', role: 'DevOps Engineer' },
+                { 
+                  name: 'Ankit', 
+                  role: 'DevOps Engineer',
+                  image: '/team/WhatsApp Image 2025-12-03 at 15.55.43_d17ffc7e.jpg',
+                  bio: 'Ankit specializes in DevOps practices, ensuring our infrastructure is scalable, reliable, and efficient. His expertise in CI/CD pipelines and cloud technologies keeps our platform running smoothly.'
+                },
                 { 
                   name: 'Arsalan', 
                   role: 'Quality Assurance',
