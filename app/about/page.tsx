@@ -1,17 +1,9 @@
-import { Metadata } from 'next';
-import { defaultMetadata } from '../lib/metadata';
+'use client';
+
 import dynamic from 'next/dynamic';
 
-// Dynamically import the client component with no SSR
-const ContactForm = dynamic(() => import('./ContactForm'), { ssr: false });
-
-const aboutMetadata: Metadata = {
-  ...defaultMetadata,
-  title: 'About Us | SkillStack',
-  description: 'Learn more about the team behind SkillStack and our mission to revolutionize education.',
-};
-
-export const metadata = aboutMetadata;
+// Dynamically import the client component
+const ContactForm = dynamic(() => import('./ContactForm'));
 
 export default function AboutPage() {
   const teamMembers = [
